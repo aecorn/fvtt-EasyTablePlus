@@ -1,35 +1,27 @@
 {
-  "name": "EasyTable",
-  "title": "EasyTable by Blitz",
-  "description": "Creates simple text-based rollable tables from CSV (or any-SV) data",
+  "id": "EasyTablePlus",
+  "title": "EasyTablePlus",
   "version": "1.3.3",
-  "author": "Blitzkraig",
-  "authors": [{
-    "name": "Blitzkraig",
-    "url": "https://ko-fi.com/blitzkraig",
-    "email": "craig@blitzkraig.com",
-    "discord": "Blitz#6797"
-  }],
-  "scripts": ["./easytable.js"],
-  "styles": ["./styles.css"],
-  "packs": [],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Aecorn",
+      "url": "aecorn.com",
+      "discord": "ekorngutt"
+    }
+  ],
+  "esmodules": ["scripts/easytable.mjs"],
+  "styles": ["styles/styles.css"],
   "languages": [{
     "lang": "en",
     "name": "English",
     "path": "lang/en.json"
   }],
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.6",
-  "url": "https://github.com/BlitzKraig/fvtt-EasyTable",
-  "manifest": "https://raw.githubusercontent.com/BlitzKraig/fvtt-EasyTable/master/module.json",
-  "download": "https://github.com/BlitzKraig/fvtt-EasyTable/releases/download/latest/easytable-release.zip",
-  "manifestPlusVersion": "1.0.0",
-  "media": [
-    {
-      "type": "cover",
-      "url": "https://raw.githubusercontent.com/BlitzKraig/fvtt-EasyTable/master/docs/cover.png"
-    }
-  ],
-  "allowBugReporter": true,
-  "bugs":"https://github.com/BlitzKraig/fvtt-EasyTable/issues"
+  "url": "https://github.com/aecorn/fvtt-EasyTablePlus",
+  "manifest": "https://raw.githubusercontent.com/aecorn/fvtt-EasyTablePlus/master/module.json",
+  "download": "https://github.com/aecorn/fvtt-EasyTablePlus/releases/download/latest/easytable-release.zip",
+  "readme": "README.md"
 }

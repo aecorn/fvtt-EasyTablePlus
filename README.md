@@ -1,9 +1,7 @@
 # EasyTable
 
-![EasyTable Release](https://github.com/BlitzKraig/fvtt-EasyTable/workflows/EasyTable%20Release/badge.svg)
-![Latest Release Download Count](https://img.shields.io/github/downloads/BlitzKraig/fvtt-EasyTable/latest/easytable-release.zip)
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q01YIEJ)
+![EasyTable Release](https://github.com/aecorn/fvtt-EasyTablePlus/workflows/EasyTablePlus%20Release/badge.svg)
+![Latest Release Download Count](https://img.shields.io/github/downloads/aecorn/fvtt-EasyTablePlus/latest/easytable-release.zip)
 
 Easy RollTables from CSV (or any-SV) data!
 
@@ -103,10 +101,6 @@ EasyTable can export any table to CSV, including a customisable separator, optio
 Simply right click a table in your tables directory and choose Export EasyTable, then follow the instructions.
 
 Note that the export function does not export the title or the description, just the data inside the table.
-
-## Manifest
-
-`https://raw.githubusercontent.com/BlitzKraig/fvtt-EasyTable/master/module.json`
 
 ## Feedback
 
