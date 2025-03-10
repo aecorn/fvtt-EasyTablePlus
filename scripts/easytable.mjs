@@ -245,23 +245,24 @@ class EasyTable {
                 "text": text,
                 "weight": weight,
                 "range": [rangeIndex, rangeIndex + (weight - 1)],
-                "collection": resultCollection,
-                "resultId": resultID,
+                "documentCollection": resultCollection,
+                "documentId": resultID,
                 "drawn": false,
                 "img": img
             });
             rangeIndex += weight;
         });
-
+        console.log(resultsArray);
         let table = await RollTable.create({
             name: title,
             description: description,
             results: resultsArray,
             replacement: true,
             displayRoll: true,
-            img: "modules/EasyTable/easytable.png"
+            img: "modules/easytableplus/easytable.png"
         });
         await table.normalize();
+        console.log(table);
     }
 
     static async generateTablePastedData(title, description, tableData, safeMode = false) {
@@ -344,7 +345,7 @@ class EasyTable {
             results: resultsArray,
             replacement: true,
             displayRoll: true,
-            img: "modules/EasyTable/easytable.png"
+            img: "modules/easytableplus/easytable.png"
         });
         await table.normalize();
     }
