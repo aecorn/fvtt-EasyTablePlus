@@ -1,27 +1,29 @@
 {
-  "id": "EasyTablePlus",
+  "id": "easytableplus",
   "title": "EasyTablePlus",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "compatibility": {
     "minimum": "12",
-    "verified": "13"
+    "verified": "12"
   },
+  "description": "Description",
   "authors": [
     {
       "name": "Aecorn",
-      "url": "aecorn.com",
-      "discord": "ekorngutt"
+      "discord": "ekorngutt",
+      "flags": {}
     }
   ],
-  "esmodules": ["scripts/easytable.mjs"],
-  "styles": ["styles/styles.css"],
+  "esmodules": [
+    "scripts/easytable.mjs"
+  ],
+  "styles": [
+    "styles/style.css"
+  ],
   "languages": [{
     "lang": "en",
     "name": "English",
     "path": "lang/en.json"
   }],
-  "url": "https://github.com/aecorn/fvtt-EasyTablePlus",
-  "manifest": "https://raw.githubusercontent.com/aecorn/fvtt-EasyTablePlus/master/module.json",
-  "download": "https://github.com/aecorn/fvtt-EasyTablePlus/releases/download/latest/easytable-release.zip",
-  "readme": "README.md"
+  "url": "https://github.com/aecorn/fvtt-EasyTablePlus"
 }
